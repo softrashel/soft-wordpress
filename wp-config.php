@@ -8,7 +8,7 @@ $site_url = "http://localhost/".$site_local_dir;
 
 define( "SITE_URL", $site_url );
 
-define( "DB_NAME", "soft-wordpress" );
+define( "DB_NAME", "wp_test" );
 define( "DB_USER", "root" );
 define( "DB_PASSWORD", "" );
 define( "DB_HOST", "localhost" );
