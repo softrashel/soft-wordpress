@@ -1,2 +1,2 @@
 # soft-wordpress
-My own wordpress CMS from scrapch
+My own WordPress CMS from scratch
