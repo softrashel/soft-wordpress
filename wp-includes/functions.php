@@ -230,7 +230,7 @@ function add_script_admin_head()
 	?>
 	<script>
 	    tinymce.init({
-	     	selector:'.my_tinymce',
+	     	selector: '.my_tinymce',
 	     	plugins : 'advlist autolink link lists table charmap print preview media image textcolor'
 	   	});
 	</script>
@@ -498,12 +498,12 @@ function wp_insert_post( $postarr )
 
   if( $post_id )
   {
-    $sql = "UPDATE `wp_posts` SET `post_title`='".$title."', `post_content`='".$content."', `post_date`='".$date."', `post_status`='".$status."'' WHERE `ID`=".$post_id;
+    $sql = "UPDATE `wp_posts` SET `post_title`='".$title."', `post_content`='".$content."', `post_date`=".$date.", `post_status`='".$status."', `post_type`='".$type."' WHERE `ID`=".$post_id;
     $result = $wpdb->query( $sql );
   }
   else
   {
-    $sql = "INSERT INTO `wp_posts`( `post_title`, `post_content`, `post_date`, `post_status`, `post_type` ) VALUES ( '".$title."', '".$content."', '".$date."', '".$status."', '".$type."' )";
+    $sql = "INSERT INTO `wp_posts`( `post_title`, `post_content`, `post_date`, `post_status`, `post_type` ) VALUES ( '".$title."', '".$content."', ".$date.", '".$status."', '".$type."' )";
     $result = $wpdb->query( $sql );
     $post_id = mysql_insert_id();
   }
