@@ -231,8 +231,8 @@ table {
 }
 
 .add_custom_field{
-	font-size: 20px;
 	font-weight: 600;
+	letter-spacing: 0;
 	margin: 50px 0;
 	padding: 20px;
 	background-color: #fff;
@@ -245,6 +245,8 @@ table {
 	border: 1px solid #ddd;
 }
 .enter_new_button{
+	font-size: 14px;
+	font-weight: 400;
 	cursor: pointer;
 	color: #0c5a73;
 }

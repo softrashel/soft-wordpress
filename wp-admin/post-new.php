@@ -34,15 +34,15 @@ if( isset($_GET['post_type']) )
             <div class="add_custom_field">
 
               <div>Custom Fields</div>
-              <div>Add New Custom Field :</div>
+              <div style="color:#444;">Add New Custom Field :</div>
 
               <div style="background-color:#eee; border:1px solid #ddd;">
 
                 <div style="width:777px; background-color:#ddd; text-align:center;">
 
-                  <div style="width:280px; float:left">Name</div>
+                  <div style="width:280px; float:left; padding:5px 0;">Name</div>
 
-                  <div style="width:485px; float:left">Value</div>
+                  <div style="width:485px; float:left; padding:5px 0;">Value</div>
 
                   <div style="clear:both"></div>
 
