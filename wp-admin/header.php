@@ -144,7 +144,7 @@ if( isset( $_GET["action"] ) && $_GET["action"]=="edit" )
 
       <div class="action_bar_right">
         
-        <a href="#">Rashel, admin<img src="#"></a>
+        <a href="#">Rashel, admin<img src="images/admin.png"></a>
         <a href="logout.php" class="sign_button">Logout</a>
 
       </div>
